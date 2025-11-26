@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 D3 Map Demo
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Demo here: https://stackblitz.com/edit/nuxt-d3-map
+
+This is a demo of integrating a D3 map in Nuxt 3 with locations, current geo location and connecting locations with current location via line. The map is completely Client-Only due the complex nature of D3. In a real world scenario, rendering D3 content should only be limited to client only, ideally combining Nuxt [delayed or lazy hydration features](https://nuxt.com/docs/4.x/directory-structure/app/components#delayed-or-lazy-hydration).
 
 ## Setup
 
@@ -22,7 +24,7 @@ pnpm install
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn run dev
 ```
 
 ## Production
@@ -30,13 +32,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
